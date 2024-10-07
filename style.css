@@ -13,20 +13,20 @@
 }
 
 :root{
-    --cor0: #D3F7DF;
+    --cor0: #e1f7d3;
     --cor1: #ff0202;
-    --cor2: #38805c;
-    --cor3: #5C6661; 
-    --cor4: #2B6146;
-    --cor5: #a3c63a71;
-    --cor6: #5F664A;
-    --cor7: #bff5d1;
+    --cor2: #803838;
+    --cor3: #665c5c; 
+    --cor4: #612b2b;
+    --cor5: #c64a3a71;
+    --cor6: #664a4a;
+    --cor7: #f5ccbf;
     --cor8: #eb8787;
-    --cor9: #c0eb8779;
-    --cor10: #459c71;
-    --cor11: #39D477;
-    --cor12: #37925b;
-    --cordeg1: #6aaf81;
+    --cor9: #eb878779;
+    --cor10: #9c4545;
+    --cor11: #d43939;
+    --cor12: #923737;
+    --cordeg1: #af6a6a;
     --cordeg2: #d8d8d8;
 
     --font-padrao: Verdana, Geneva, Tahoma, sans-serif;
