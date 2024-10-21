@@ -49,7 +49,8 @@ body{
 header{
     background-image: linear-gradient(0deg, var(--cor4), var(--cor10));
     text-align: center;
-    padding: 40px 10px;    
+    padding: 40px 10px;
+
 }
 
 header > h1{
@@ -111,14 +112,14 @@ main{
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.349);     
 }
 
-article > h1{
+article, section > h1{
     font-family: var(--font-android);
     font-weight: 100;    
     font-size: 1.8em;   
-    color: var(--cor4);  
+    color: var(--cor4); 
 }
 
-article > h2{
+article> h2{
     font-family: var(--font-android);
     font-weight: 500;
     font-size: 1.4em;
