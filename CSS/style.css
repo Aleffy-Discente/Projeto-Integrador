@@ -112,14 +112,14 @@ main{
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.349);     
 }
 
-article, section > h1{
+h1{
     font-family: var(--font-android);
     font-weight: 100;    
     font-size: 1.8em;   
     color: var(--cor4); 
 }
 
-article> h2{
+h2{
     font-family: var(--font-android);
     font-weight: 500;
     font-size: 1.4em;
@@ -130,7 +130,7 @@ article> h2{
     border-radius: 5px;
 }
 
-article > p{
+p{
     text-indent: 30px;
     text-align: justify;
     font-family: var(--font-subtitulo);
