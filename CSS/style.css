@@ -7,17 +7,17 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
 
 @font-face{
-    font-family: 'Android';
+    font-family: 'externa';
     src: url('fontes/idroid.otf') format('opentype');
     font-weight: normal;
 }
 
 :root{
     --cor0: #e1f7d3;
-    --cor1: #ff0202;
+    --cor1: #0252ff;
     --cor2: #803838;
     --cor3: #665c5c; 
-    --cor4: #612b2b;
+    --cor4: #0d35e7;
     --cor5: #c64a3a71;
     --cor6: #664a4a;
     --cor7: #f5ccbf;
@@ -31,7 +31,7 @@
 
     --font-padrao: Verdana, Geneva, Tahoma, sans-serif;
     --fonte-destaque: 'Bebas Neue', cursive;
-    --font-android: 'Android', cursive;
+    --font-externa: 'externa', cursive;
     --font-subtitulo: 'Roboto', sans-serif;
     --font-titulo: 'PT Sans Narrow', display;
 }
@@ -55,7 +55,7 @@ header{
 
 header > h1{
     color: white;
-    font-family: var(--font-android);
+    font-family: var(--fornt-extena);
     font-size: 2.6em;   
     font-weight: 100; 
     padding-top: 20px;   
@@ -113,14 +113,14 @@ main{
 }
 
 h1{
-    font-family: var(--font-android);
+    font-family: var(--fonrt-extena);
     font-weight: 100;    
     font-size: 1.8em;   
     color: var(--cor4); 
 }
 
 h2{
-    font-family: var(--font-android);
+    font-family: var(-r-font-extena);
     font-weight: 500;
     font-size: 1.4em;
     margin-top: 25px;
