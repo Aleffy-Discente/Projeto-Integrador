@@ -1,114 +1,57 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BioMaker</title>
-    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <title>Home - BioXplorer</title>
 </head>
 <body>
     <header>
-        <h1>PROJETO INTEGRADOR BIOMAKER</h1>
-        <p>Tudo aquilo que você sempre quis saber sobre os vírus, bactérias e bacteriofagos em um único lugar.</p>
+        <h1>Projeto Integrador Biomaker</h1>
+        <div class="header-content">
+            <p>Explore a complexidade e a importância dos vírus e bactérias por meio de modelos interativos em 3D que tornam o aprendizado da biologia fascinante e acessível.</p>
+            <h2>Descubra o Mundo dos Microorganismos</h2>
+        </div>
+        <nav>
+            <a href="index.html">Página Inicial</a>
+            <a href="sobre-nos.html">Sobre Nós</a>
+            <a href="contato.html">Contato</a>
+        </nav>
     </header>
-    <nav>
-        <a href="#">Home</a> 
-        <a href="#">Notícias</a>
-        <a href="#">Contato</a>
-    </nav>
-    
-    <main>
-        <article>
-            <h1>TIPOS DE VIRUS</h1>
-            <p>
-                Provavelmente você sabe um pouco sobre o que é um <strong>vírus</strong>, sabe que eles fazem mal, mas tavez você não saiba como eles funcionam e nos infectam e até que existem vírs que podem nos ajudar. Pois acompanhe esse artigo para aprender muita coisa sobre eles.
-            </p>          
-
-            <h2>O que são?</h2>
-
-            <p>
-                Vírus são seres qeu não possuem celulas (acelulares) e nem estruturas que normalmente estariam nas células, graças a isso eles não são considerados seres vivos por boa parte dos cientistas. Eles normalmente não tem metabolismo próprio e nem conseguem se reproduzir, sendo necessário que eles infectem alguma celula para que possam fazer isso, sendo cacterizados comoparasitas intracelulares obrigatórios.
-            </p>
-
-            <picture>
-                <source media="(max-width: 670px)" srcset="imagens/dan-droids-pq.png">
-                <img src="imagens/dan-droids.png" alt="Primeiro mascote do Android">
-            </picture>
-
-                        
-            <h2>Estrutura</h2>
-            <p>
-
-                A ideia de ter um mascote foi amadurecendo e a missão foi passada para uma profissional da área. A ilustradora Russa <a class="externo" href="https://www.irinablok.com/" target="_blank" rel="external">Irina Blok</a>, também funcionária do Google, ficou com a missão de representar o pequeno robô de uma maneira mais agradável.
-            </p>
-
-            <picture>
-                <source media="(max-width: 670px)" srcset="imagens/irina-blok-pq.jpg" type="image/jpg">
-                <img src="imagens/irina-blok.jpg" alt="Irina Blok, criadora do Bugdroid">
-            </picture>
-
-            <p>
-                A ideia principal da Irina era representar tudo graficamente com poucos traços e de forma mais chapada. O desenho também deveria gerar identificação rápida com quem o olha. Surgiu então o <strong>Bugdroid</strong>, o novo mascote do Android.
-            </p>
-
-            <img class="center" src="imagens/bugdroid.png" alt="Bugdroid">
-
-            <p>
-                A principal inspiração para os traços do novo <strong>Bugdroid</strong> veio daqueles bonequinhos que ilustram portas de banheiro para indicar o gênero de cada porta. Conta a lenda que a artista estava criando em sua mesa no escritório do <strong>Google</strong> e olhou para o lado dos banheiros e a identificação foi imediata: simples, limpo, objetivo.
-            </p>
-
-            <div class="video-conteiner">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/_8KOV5Bihlw?si=ApxluEuhrCVnxRKf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <div class="slider">
+        <div class="slides">
+            <div class="slide">
+                <img src="imagens/slider/virus_resized.jpg" alt="Vírus">
+                <div class="text">
+                    <h2>Vírus</h2>
+                    <p>Os vírus são agentes microscópicos capazes de infectar organismos vivos, causando diversas doenças.</p>
+                    <a href="virus.html"><button class="link">Saiba Mais</button></a>
+                </div>
             </div>
-        
-            <aside>
-                <h3>Quer aprender mais?</h3>
-
-                <p>
-                    Outro assunto curioso em relação ao Android é que cada versão sempre foi nomeada em homenagem a um doce, em ordem alfabética a partir da versão 1.5 até a 9.0.
-                </p>
-
-                <ul style="list-style-type: none;">
-                    <li>&check; 1.5 - <abbr title="Bolo de pote">Cupcake</abbr></li>
-                    <li>&check; 1.6 - <abbr title="Rosquinha">Donut</abbr></li>
-                    <li>&check; 3.0 - <abbr title="Bomba">Eclair</abbr></li>
-                    <li>&check; 2.2 - <abbr title="Iogurte">Froyo</abbr></li>
-                    <li>&check; 2.3 - <abbr title="Biscoito de gengibre">Gingerbread</abbr></li>
-                    <li>&check; 3.0 - <abbr title="Favo de mel">Honeycomb</abbr></li>
-                    <li>&check; 4.0 - <abbr title="Sanduíche de sorvete">Ice Cream Sandwich</abbr></li>
-                    <li>&check; 4.1 - <abbr title="Jujuba">Jelly Bean</abbr></li>
-                    <li>&check; 4.4 - <abbr title="KitKat">KitKat</abbr></li>
-                    <li>&check; 5.0 - <abbr title="Pirulito">Lolipop</abbr></li>
-                    <li>&check; 6.0 - <abbr title="Marshmallow">Marshmallow</abbr></li>
-                    <li>&check; 7.0 - <abbr title="Torrone">Nougat</abbr></li>
-                    <li>&check; 8.0 - <abbr title="Oreo">Oreo</abbr></li>
-                    <li>&check; 9.0 - <abbr title="Torta">Pie</abbr></li>
-                </ul>
-
-                <p>
-                    Infelizmente, o <strong>Android Q</strong> não existiu, pois o Google resolveu pôr fim a essa divertida prática e começou a usar numerações, o que deu origem ao Android 10.
-                </p>
-                
-                <p>
-                    Acesse <a class="externo" href="https://www.android.com/intl/en_uk/history/#/donut" target="_blank" rel="external">aqui</a> o site <strong>Android History</strong> para conhecer a sequência das versões "adocicadas" e o que cada uma trouxe para o sistema Android.
-                </p>
-            </aside>
-
-            <p>
-                Então é isso! Espero que você tenha gostado do nosso artigo com essa curiosidade sobre o sistema <strong>Android</strong> e seu simpático mascote.
-            </p>
-            <aside id="final">
-                Por <span><a class="vazio" href="https://github.com/Aleffy-Discente" target="_blank" rel="external">Confusion Team</a></span>
-            </aside>
-        </article>
-    </main>
-
-    <footer>
-        <p>
-            Site criado por <a target="_blank" rel="external" href="https://github.com/Aleffy-Discente">Áleffy Kauê</a>
-        </p>
-    </footer>
+            <div class="slide">
+                <img src="imagens/slider/bacteria_resized.jpg" alt="Bactéria">
+                <div class="text">
+                    <h2>Bactéria</h2>
+                    <p>As bactérias são organismos unicelulares que podem ser tanto benéficos quanto prejudiciais aos humanos.</p>
+                    <a href="bacteria.html"><button class="link">Saiba Mais</button></a>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="imagens/slider/bacteriofago_resized.webp" alt="Bacteriófago">
+                <div class="text">
+                    <h2>Bacteriófago</h2>
+                    <p>Os bacteriófagos são vírus que infectam e destroem bactérias, sendo estudados para uso médico.</p>
+                    <a href="bacteriofago.html"><button class="link">Saiba Mais</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="controls">
+            <button id="prev">&lt;</button>
+            <button id="next">&gt;</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
 </body>
 </html>
