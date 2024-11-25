@@ -28,7 +28,7 @@ header h1 {
     position: absolute;
     top: 20px;
     left: 20px;
-    font-size: 2rem; /* Tamanho base */
+    font-size: 1.3rem; /* Tamanho base */
     font-weight: bold;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
@@ -50,6 +50,7 @@ header p {
     line-height: 1.8;
     margin-bottom: 20px;
     color: #ddd;
+    width: 65%;
 }
 
 header h2 {
@@ -72,7 +73,7 @@ nav {
 nav a {
     text-decoration: none;
     color: white;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: None;
     padding: 10px 15px;
     border-radius: 5px;
     transition: all 0.3s ease;
@@ -80,8 +81,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: rgba(255, 255, 255, 0.8);
-    color: black;
+    text-decoration: underline;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 .link
