@@ -98,7 +98,6 @@ nav > a:hover{
     color: var(--cor4);
     background-color: var(--cor8);    
     border-radius: 4px;    
-    text-decoration: underline;
     font-weight: 400;
 }
 
